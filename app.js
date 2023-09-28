@@ -5,12 +5,16 @@ gsap.to('.header', {
         endTrigger: "footer",
         pin: true,
         // pinSpacing: 'padding', // or 'padding-box'
-        markers: true,
+        markers: false,
         start: "top top",
         end: "bottom top"
     }
 });
 
-gsap.from('.hi', {duration: 1.5, opacity: 0, x: '-100%', delay: 0});
-gsap.from('.lemme', {duration: 1.5, opacity: 0, x: '-50%', delay: 0.5});
-gsap.from('.mouse', {duration: 2, opacity: 0, y: '150%', delay: 2});
+//Landing section
+gsap.from('.hi', {ease: "power4",duration: 1.5, opacity: 0, x: '-100%', delay: 0});
+gsap.from('.lemme', {ease: "power4",duration: 1.5, opacity: 0, x: '-50%', delay: 0.5});
+gsap.from('.mouse', {ease: "expo",duration: 2, opacity: 0, y: '150%', delay: 1.7, filter: blur()});
+
+
+//Myanmar section

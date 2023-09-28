@@ -68,6 +68,21 @@ body {
 .myanmar {
     height: 100vh;
 }
+.location-wrap {
+    transform: translate(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width:50%; height:auto
+}
+.values {
+    transform: translateY(60%);
+}
+
+
+
 .mylp {
     height: 100vh;
 }
