@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    outline: 3px solid black !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    background-color: #fffdd1;
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    height: 10vh;
+}
+.landing {
+    height: 90vh;
+}
+.myanmar {
+    height: 100vh;
+}
+.mylp {
+    height: 100vh;
+}
+.artist {
+    height: 50vh;
+}
+.skills {
+    height: 70vh;
+}
+.aerospace {
+    height: 70vh;
+}
+.foot {
+    height: 10vh;
+}
