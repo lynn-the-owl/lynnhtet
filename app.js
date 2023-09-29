@@ -18,3 +18,44 @@ gsap.from('.mouse', {ease: "expo",duration: 2, opacity: 0, y: '150%', delay: 1.7
 
 
 //Myanmar section
+gsap.from('.map', {
+    x: "-100%",
+    opacity: 0,
+    scrollTrigger: {
+        trigger: '.map',
+        // markers: true,
+        scrub: 2,
+        endTrigger: ".map",
+        start: "top 70%",
+        end: "top 10%"
+    }
+});
+gsap.from('.from', {
+    x: "100%",
+    opacity: 0,
+    delay: "3",
+    scrollTrigger: {
+        trigger: '.map',
+        // markers: true,
+        scrub: 2,
+        endTrigger: ".map",
+        start: "top 70%",
+        end: "top 10%"
+    }
+});
+gsap.from('.values', {
+    x: "200%",
+    ease: "power2",
+    opacity: 0,
+    scrollTrigger: {
+        trigger: '.from',
+        // markers: true,
+        scrub: 2,
+        endTrigger: ".map",
+        start: "bottom 70%",
+        end: "top 10%"
+    }
+});
+
+
+//MYLP section
