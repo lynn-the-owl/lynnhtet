@@ -15,6 +15,10 @@ body {
     font-weight: 300;
     overflow-x: hidden;
 }
+p {
+    padding: 0;
+    margin: 0
+}
 .all {
     display: flex;
     flex-direction: column;
@@ -92,17 +96,12 @@ img {
 
 
 
+
+
 .alumni {
-    height: 90vh;
+    height: 103vh;
     background-color: #5d81b3;
-    display: flex;
-}
-.mylp {
-    height: 50vw;
-    font-family: 'Red Hat Display', sans-serif;
-    color: white;
-    font-weight: 900;
-    transform: rotate(90deg);
+    
 }
 .liberty {
     height: 102%;
@@ -126,12 +125,14 @@ img {
     z-index: 3
 }
 .transition-top {
-    height: 20vh;
+    height: 10vh;
     background-image: linear-gradient(white, #5d81b3);
 }
-.transition-bottom {
-    height: 20vh;
-    background-image: linear-gradient( #5d81b3, white);
+.alumni-text {
+    height: 10vh;
+    color: white;
+    background-color: #5d81b3;
+    text-align: center;
 }
 
 
