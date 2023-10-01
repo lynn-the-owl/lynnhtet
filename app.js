@@ -27,7 +27,7 @@ gsap.from('.map', {
         scrub: 2,
         endTrigger: ".map",
         start: "top 70%",
-        end: "top 10%"
+        end: "top 50%"
     }
 });
 gsap.from('.from', {
@@ -39,8 +39,8 @@ gsap.from('.from', {
         // markers: true,
         scrub: 2,
         endTrigger: ".map",
-        start: "top 70%",
-        end: "top 10%"
+        start: "top 90%",
+        end: "top 50%"
     }
 });
 gsap.from('.values', {

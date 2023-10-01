@@ -1,16 +1,16 @@
 * {
     box-sizing: border-box;
-    outline: 0.5px solid black !important;
+    outline: 1px solid red !important;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body {
-    background-color: #fffdd1;
-    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+    background-color: #f1f1f1;
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
+    font-kerning: normal;
     font-weight: 300;
     overflow-x: hidden;
 }
@@ -23,28 +23,27 @@ body {
 .header {
     height: auto;
     display: flex;
-    background-color: yellowgreen;
+    opacity: 1;
     padding: 10px;
     z-index: 2;
 }
 .me {
-    
+    opacity: 1;
     flex-grow: 4;
 }
 .blogs {
+    opacity: 1;
     flex-grow: 1;
 }
 .portfolio {
+    opacity: 1; 
     flex-grow: 1;
 }
-.mouse{
-    transform: translateX(40%);
-    opacity: 0.7;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.book {
+    opacity: 1; 
+    flex-grow: 1;
 }
+
 
 
 
@@ -62,7 +61,14 @@ body {
 .lemme {
     transform: translate(10%);
 }
-
+.mouse{
+    transform: translateX(40%);
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -86,7 +92,18 @@ img {
 
 .mylp {
     height: 100vh;
+    background-color: #5d81b3;
+
 }
+.liberty {
+    height: 110%;
+    position: absolute;
+    right: 0;
+    transform: translate(50%);
+}
+
+
+
 .artist {
     height: 50vh;
 }
