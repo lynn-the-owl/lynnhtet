@@ -44,11 +44,12 @@ gsap.from('.from', {
     }
 });
 gsap.from('.values', {
-    x: "100%",
+    x: "200%",
+    ease: "power2",
     opacity: 0,
     scrollTrigger: {
         trigger: '.from',
-        markers: true,
+        // markers: true,
         scrub: 2,
         endTrigger: ".map",
         start: "bottom 70%",

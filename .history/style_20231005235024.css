@@ -84,15 +84,16 @@ p {
 .location-wrap {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
+
+
 img {
     height:80vh; 
     width: auto;
 }
 .values {
     transform: translateY(40%);
-} 
+}
 
 
 

@@ -36,19 +36,20 @@ gsap.from('.from', {
     delay: "3",
     scrollTrigger: {
         trigger: '.map',
-        // markers: true,
+        markers: true,
         scrub: 2,
         endTrigger: ".map",
         start: "top 90%",
-        end: "top 35%"
+        end: "top 50%"
     }
 });
 gsap.from('.values', {
-    x: "100%",
+    x: "200%",
+    ease: "power2",
     opacity: 0,
     scrollTrigger: {
         trigger: '.from',
-        markers: true,
+        // markers: true,
         scrub: 2,
         endTrigger: ".map",
         start: "bottom 70%",

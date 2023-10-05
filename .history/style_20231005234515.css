@@ -13,7 +13,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-kerning: normal;
     font-weight: 300;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 p {
     padding: 0;
@@ -84,7 +84,10 @@ p {
 .location-wrap {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+.texts {
+    display: flex;
+    flex-direction: row;
 }
 img {
     height:80vh; 
@@ -92,7 +95,7 @@ img {
 }
 .values {
     transform: translateY(40%);
-} 
+}
 
 
 

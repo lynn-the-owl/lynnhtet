@@ -13,7 +13,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-kerning: normal;
     font-weight: 300;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 p {
     padding: 0;
@@ -92,7 +92,7 @@ img {
 }
 .values {
     transform: translateY(40%);
-} 
+}
 
 
 
