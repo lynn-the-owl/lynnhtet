@@ -62,9 +62,10 @@ gsap.from('.liberty', {
     x: "100%",
     opacity: 0,
     scrollTrigger: {
-        trigger: '.transition-top',
+        trigger: '.transition-top ',
         markers: true,
         scrub: 2,
+        endTrigger: ".map",
         start: "bottom 70%",
         end: "top 10%"
     }

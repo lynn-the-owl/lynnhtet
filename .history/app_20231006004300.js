@@ -58,13 +58,14 @@ gsap.from('.values', {
 
 
 //MYLP section
-gsap.from('.liberty', {
+gsap.from('.', {
     x: "100%",
     opacity: 0,
     scrollTrigger: {
-        trigger: '.transition-top',
-        markers: true,
+        trigger: '.from',
+        // markers: true,
         scrub: 2,
+        endTrigger: ".map",
         start: "bottom 70%",
         end: "top 10%"
     }

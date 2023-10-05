@@ -65,6 +65,7 @@ gsap.from('.liberty', {
         trigger: '.transition-top',
         markers: true,
         scrub: 2,
+        endTrigger: ".map",
         start: "bottom 70%",
         end: "top 10%"
     }
