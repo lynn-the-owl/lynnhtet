@@ -27,7 +27,7 @@ p {
     display: flex;
     flex-direction: column;
     z-index: 1;
-    overflow-x: hidden;
+    over
 }
 
 .header {
