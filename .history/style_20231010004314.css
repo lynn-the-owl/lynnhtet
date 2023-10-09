@@ -3,13 +3,6 @@
     outline: 1px solid red !important;
 }
 
-reference websites
-http://heathershaw.com/
-https://stefaniebrueckler.com/
-https://buzzworthystudio.com/
-https://www.analeovy.com/
-
-
 /* 
 html {
     overflow-x: hidden;
@@ -49,7 +42,6 @@ p {
     left: 1em;
     top: 1em;
     text-align: left;
-    
 }
 
 
@@ -63,7 +55,6 @@ p {
     font-family: 'Poiret One', cursive;
     font-size: x-large; 
     padding-top: 2em;
-    background-color: #f1f1f1;
 }
 
 .foot {
