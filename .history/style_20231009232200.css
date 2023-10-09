@@ -2,7 +2,6 @@
     box-sizing: border-box;
     outline: 1px solid red !important;
 }
-
 /* 
 html {
     overflow-x: hidden;
@@ -12,20 +11,21 @@ body {
     background-color: #f1f1f1;
     margin: 0;
     padding: 0;
+    font-kerning: normal;
+    font-weight: 300;
     /* overflow-x: hidden; */
 }
 p {
     padding: 0;
     margin: 0
 }
-.myprojects {
-
-
+.all {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
 }
 
-
 .header {
-    transform: translateY(-100%);
     height: auto;
     display: flex;
     opacity: 1;
@@ -49,7 +49,9 @@ p {
     opacity: 1; 
     flex-grow: 1;
 }
-
+.fuck-links {
+    
+}
 
 
 

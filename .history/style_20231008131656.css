@@ -3,6 +3,8 @@
     outline: 1px solid red !important;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Red+Hat+Display:wght@900&display=swap');
 /* 
 html {
     overflow-x: hidden;
@@ -12,20 +14,23 @@ body {
     background-color: #f1f1f1;
     margin: 0;
     padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+    font-kerning: normal;
+    font-weight: 300;
     /* overflow-x: hidden; */
 }
 p {
     padding: 0;
     margin: 0
 }
-.myprojects {
-
-
+.all {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    overflow-x: hidden;
 }
 
-
 .header {
-    transform: translateY(-100%);
     height: auto;
     display: flex;
     opacity: 1;
@@ -49,7 +54,9 @@ p {
     opacity: 1; 
     flex-grow: 1;
 }
-
+.fuck-links {
+    
+}
 
 
 
@@ -101,7 +108,7 @@ img {
 
 
 .alumni {
-    height: 90vh;
+    height: 103vh;
     background-color: #5d81b3;
 }
 .liberty {
@@ -112,14 +119,14 @@ img {
     z-index: 2;
 }
 .mylp-image {
-    height: 90%;
+    height: 102%;
     position: absolute;
     right: 0;
     transform: translate(50%);
     z-index: 1;
 }
 .mylp-overlay {
-    height: 90%;
+    height: 102%;
     position: absolute;
     right: 0;
     transform: translate(50%);

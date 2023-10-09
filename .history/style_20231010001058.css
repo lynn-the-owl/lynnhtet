@@ -3,6 +3,8 @@
     outline: 1px solid red !important;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Atkinson+Hyperlegible&family=Poiret+One&display=swap');
 /* 
 html {
     overflow-x: hidden;
@@ -19,6 +21,9 @@ p {
     margin: 0
 }
 .myprojects {
+    /* font-family: 'Poiret One', cursive; */
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 
 
 }

@@ -1,5 +1,15 @@
 
-
+gsap.to('.header', {
+    scrollTrigger: {
+        trigger: '.header',
+        endTrigger: "footer",
+        pin: true,
+        // pinSpacing: 'padding', // or 'padding-box'
+        markers: false,
+        start: "top top",
+        end: "bottom top"
+    }
+});
 
 //Landing section
 gsap.from('.hi', {ease: "power4",duration: 1.5, opacity: 0, x: '-100%', delay: 0});
