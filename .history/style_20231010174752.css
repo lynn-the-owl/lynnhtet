@@ -90,6 +90,7 @@ span {
     display: flex;
     justify-content: center;
 }
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -99,7 +100,6 @@ span {
     flex-grow: 2;
     font-family: 'Chonburi', cursive;
 }
-
 
 
 .foot {
