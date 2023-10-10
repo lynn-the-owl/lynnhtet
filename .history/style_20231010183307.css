@@ -14,6 +14,7 @@ body {
     background-color: #f1f1f1;
     margin: 0;
     padding: 0;
+    
     font-family: 'Poiret One', cursive;
     /* overflow-x: hidden; */
 }
@@ -38,8 +39,6 @@ p, h4 {
     text-align: left;
 }
 .mywork {
-
-    text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: x-large; 
     padding-top: 2em;
@@ -66,7 +65,6 @@ span {
     }
 }
 .name{
-    top: 0%;
     position: absolute;
     font-size: xx-large;
     z-index: 3;
@@ -96,21 +94,19 @@ span {
     display: flex;
     flex-direction: column;
     align-content: space-around;
-
-    justify-content: space-around;
 }
 .project-child {
     flex-grow: 2;
     font-family: 'Chonburi', cursive;
-    max-width: 90vw;
-    aspect-ratio: auto;
-    overflow: hidden;
-    text-align: center;
+    max-width: 50vw;
+    height: 
 }
 
 
 
-
+.DAY {
+    
+}
 .img {
     z-index: 0;
 }
@@ -118,7 +114,8 @@ span {
     z-index: 1;
 }
 .DAY-img {
-    max-width: 17rem;
+    max-width: 50vw;
+    transform: translateY(-10%);
     overflow-x: hidden;
 }
 

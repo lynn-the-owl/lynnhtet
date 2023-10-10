@@ -66,7 +66,6 @@ span {
     }
 }
 .name{
-    top: 0%;
     position: absolute;
     font-size: xx-large;
     z-index: 3;
@@ -96,14 +95,13 @@ span {
     display: flex;
     flex-direction: column;
     align-content: space-around;
-
-    justify-content: space-around;
 }
 .project-child {
     flex-grow: 2;
     font-family: 'Chonburi', cursive;
     max-width: 90vw;
-    aspect-ratio: auto;
+    transform: translate(-10%);
+    aspect-ratio: auto 3/4;
     overflow: hidden;
     text-align: center;
 }
@@ -118,7 +116,7 @@ span {
     z-index: 1;
 }
 .DAY-img {
-    max-width: 17rem;
+    width: 100%;
     overflow-x: hidden;
 }
 
