@@ -9,7 +9,11 @@ https://stefaniebrueckler.com/
 https://buzzworthystudio.com/
 https://www.analeovy.com/ */
 
-/* basics */
+/* 
+html {
+    overflow-x: hidden;
+} */
+
 body {
     background-color: #f1f1f1;
     margin: 0;
@@ -18,6 +22,7 @@ body {
     font-family: 'Poiret One', cursive;
     /* overflow-x: hidden; */
 }
+
 p {
     padding: 0;
     margin: 0
@@ -25,12 +30,13 @@ p {
 
 
 
-/* header */
+
 .header {
     width: 100%;
     display: flex;
     text-align: justify;
     justify-content: space-between;
+    
 }
 .contact-me {
     text-align: right;
@@ -39,13 +45,14 @@ p {
     text-align: left;
 }
 .mywork {
+    text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: x-large; 
     padding-top: 2em;
 }
 
 
-/* loading */
+
 span {
     transform: scale(2.5);
 }
@@ -64,6 +71,10 @@ span {
         transform:rotate(180deg) scale(2.5);
     }
 }
+
+
+
+/* loading screen */
 .name{
     position: absolute;
     font-size: xx-large;
@@ -84,7 +95,7 @@ span {
 }
 
 
-/* hero */
+
 .landing {
     height: 100vh;
     display: flex;

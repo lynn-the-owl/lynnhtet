@@ -9,3 +9,14 @@ gsap.to('.name', {ease: "power4", y: "-300%" ,duration: 0, opacity: 1, delay: 0,
 // gsap.to('.name', {ease: "power4", y: "-100%" ,duration: 2, opacity: 1, delay: 1.5, filter: blur("6px")});
 
 
+gsap.to('.mywork', {
+    scrollTrigger: {
+        trigger: '.mywork',
+        endTrigger: ".foot",
+        pin: true,
+        pinSpacing: 'padding', // or 'padding-box'
+        // markers: true,
+        start: "top",
+        end: "bottom bottom"
+    }
+});

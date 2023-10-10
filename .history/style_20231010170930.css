@@ -9,6 +9,14 @@ https://stefaniebrueckler.com/
 https://buzzworthystudio.com/
 https://www.analeovy.com/ */
 
+/* 
+html {
+    overflow-x: hidden;
+} */
+
+
+
+
 /* basics */
 body {
     background-color: #f1f1f1;
@@ -45,7 +53,7 @@ p {
 }
 
 
-/* loading */
+loading
 span {
     transform: scale(2.5);
 }
@@ -64,6 +72,10 @@ span {
         transform:rotate(180deg) scale(2.5);
     }
 }
+
+
+
+/* loading screen */
 .name{
     position: absolute;
     font-size: xx-large;
@@ -84,7 +96,7 @@ span {
 }
 
 
-/* hero */
+
 .landing {
     height: 100vh;
     display: flex;

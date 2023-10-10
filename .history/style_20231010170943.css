@@ -9,6 +9,14 @@ https://stefaniebrueckler.com/
 https://buzzworthystudio.com/
 https://www.analeovy.com/ */
 
+/* 
+html {
+    overflow-x: hidden;
+} */
+
+
+
+
 /* basics */
 body {
     background-color: #f1f1f1;
@@ -84,7 +92,7 @@ span {
 }
 
 
-/* hero */
+
 .landing {
     height: 100vh;
     display: flex;
