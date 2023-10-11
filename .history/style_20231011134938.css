@@ -48,11 +48,11 @@ p, h4 {
 
 /* loading */
 span {
-    font-size: medium;
+    font-size: ;
 }
 .hourglass {
     
-    animation:hourglass 0.7s linear infinite;
+    animation:hourglass 1s linear infinite;
 }
 @keyframes hourglass{
     0%{
@@ -81,7 +81,7 @@ span {
 }
 .loader {
     position: absolute;
-    bottom: 40%;
+    bottom: 20%;
     left: 50%;
 }
 

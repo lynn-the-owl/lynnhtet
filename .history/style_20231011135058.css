@@ -52,7 +52,7 @@ span {
 }
 .hourglass {
     
-    animation:hourglass 0.7s linear infinite;
+    animation:hourglass 0.5s linear infinite;
 }
 @keyframes hourglass{
     0%{
