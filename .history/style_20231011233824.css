@@ -162,27 +162,12 @@ span {
 }
 
 
-.uniFied > .screen > .img {
-    background-image: url(https://cdn.discordapp.com/attachments/987011683245522944/1157300918698639461/Screenshot_1499.png?ex=653279f8&is=652004f8&hm=dfdc803a6de0ae2473a690e9028aaf3c137df911642ec38cc0d45290c555cba2&);
-}
-
-.Book > .screen > .img {
-    background-image: url(https://cdn.discordapp.com/attachments/820590048604586044/1161720821912457306/IMG_5033.webp?ex=653953d3&is=6526ded3&hm=323ef0762a6ccb811d0f2dd9d868bdf14b0f7cefe23981039af55f67fc274213&);
-}
-.MYLP >.screen > .img {
-    background-image: url(https://media.discordapp.net/attachments/820590048604586044/1161719246401843230/IMG_5030.webp?ex=6539525c&is=6526dd5c&hm=3ede24df79e7015483296a16022087ad61bc260172fc2f03486cda77761b7b3a&=&width=834&height=1068);
-}
-.History >.screen > .img {
-    background-image: url(https://media.discordapp.net/attachments/820590048604586044/1161719246972276769/IMG_5031.webp?ex=6539525c&is=6526dd5c&hm=0feb8e34c6729ca7023839e722630fc8048dfe6fca2ad05dc638e2ab0b04be99&=&width=834&height=1068);
-}
-.Blog >.screen > .img {
-    background-image: url(https://cdn.discordapp.com/attachments/820590048604586044/1161722365009469552/IMG_5035.webp?ex=65395543&is=6526e043&hm=04a4c27f9c0daa747c1392f4edff6f3c8a6da61ba90b1c95b346809b00149e54&);
-}
 
 
 
 .foot {
-    background-color: darkgray;
+    padding: 1em;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -191,8 +176,7 @@ span {
 .yeah {
     border-width: 1px;
     border: #f1f1f1;
-    margin: 0.5rem;
 }
 .bigger {
-    font-family: 'Chonburi', serif;
+    font-size: medium;
 }
