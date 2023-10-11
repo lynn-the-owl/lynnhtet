@@ -117,7 +117,7 @@ span {
 
 
 .foot {
+    height: 10vh;
     background-color: black;
-    color: white;
-    display: flex;
+    
 }

@@ -71,7 +71,7 @@ span {
     font-size: xx-large;
     z-index: 3;
     width: 100%;
-    height: 130%;
+    height: 100%;
     text-align: center;
     color: white;
     background-color: black;
@@ -117,7 +117,6 @@ span {
 
 
 .foot {
+    height: 10vh;
     background-color: black;
-    color: white;
-    display: flex;
 }

@@ -71,7 +71,7 @@ span {
     font-size: xx-large;
     z-index: 3;
     width: 100%;
-    height: 130%;
+    height: 100%;
     text-align: center;
     color: white;
     background-color: black;
@@ -109,6 +109,9 @@ span {
     text-align: center;
 }
 
+#project-child:has(.fancy:hover) .project-child:not(.fancy:hover) {
+    opacity: 0.2;
+}
 
 
 
@@ -117,7 +120,5 @@ span {
 
 
 .foot {
-    background-color: black;
-    color: white;
-    display: flex;
+    height: 10vh;
 }
